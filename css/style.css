@@ -31,6 +31,10 @@ h3 {
 
 .column1 {
     width: calc(100% / 3);
+    border-color: rebeccapurple;
+    border-style: solid;
+    float: left;
+    background-color: black;
 }
 
 .column1 img {
@@ -39,14 +43,8 @@ h3 {
     margin-right: 5px;
 }
 
-.column1 {
-    float: left;
-    background-color: black;
-    vertical-align: middle;
-}
-
-#marco {
-    
+address {
+    color: rgb(0, 208, 255);
 }
 
 .clearfix::after {
