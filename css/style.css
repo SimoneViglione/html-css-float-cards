@@ -25,23 +25,32 @@ p {
     color: black;
 }
 
-.columns {
-    width: calc(100% / 3);
-    clear: both;
-}
-
 h3 {
     padding: 5px;
 }
 
+.column1 {
+    width: calc(100% / 3);
+}
 
-img {
-    float: left;
-    width: 70px;
-    height: 70px;
+.column1 img {
+    width: 80px;
+    height: 80px;
     margin-right: 5px;
 }
 
 .column1 {
+    float: left;
     background-color: black;
+    vertical-align: middle;
+}
+
+#marco {
+    
+}
+
+.clearfix::after {
+    content: '';
+    clear:both;
+    display: table;
 }
