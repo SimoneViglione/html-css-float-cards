@@ -8,6 +8,7 @@ body {
     width: 80%;
     margin: auto;
     font-family: 'Fredoka', sans-serif;
+    color: white;
 }
 
 header {
@@ -19,8 +20,28 @@ h1 {
     color: rgb(255, 0, 98);
 }
 
-img {
-    width: 60px;
-    height: 60px;
+p {
+    margin-bottom: 30px;
+    color: black;
 }
 
+.columns {
+    width: calc(100% / 3);
+    clear: both;
+}
+
+h3 {
+    padding: 5px;
+}
+
+
+img {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.column1 {
+    background-color: black;
+}
